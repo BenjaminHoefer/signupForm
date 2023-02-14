@@ -1,0 +1,102 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Form */
+
+form {
+    background-color: black;
+    width: 250px;
+    height: 300px;
+}
+
+.flex-container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    padding: 10px 0;
+    text-decoration: none;
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navigation:hover {
+    background-color: green;
+}
+
+form h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.flex-container-name {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.name {
+    width: 44%;
+    padding: 3px 5px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: 1.5px solid white;
+}
+
+.flex-container-rest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email, #password {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 3px 5px;
+    background-color: black;
+    border: 1.5px solid white;
+}
+
+form div button {
+    width: 90%;
+    padding: 15px 0;
+    background-color: green;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+form div button:hover {
+    text-decoration: underline;
+}
+
+.hidden-label {
+    border-width: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
